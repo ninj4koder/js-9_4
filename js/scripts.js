@@ -2,7 +2,7 @@ function drawTree(rows) {
   for (var i = 0; i < rows; i++) {
     var stars = '';
     for (var j = 0; j <= i; j++) {
-    	stars += '*';
+      stars += '*';
     }
     console.log(stars);
   }
